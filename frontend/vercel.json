@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "rewrites": [
+      {
+        "source": "/api/(.*)",
+        "destination": "https://google-leads-api.up.railway.app/api/$1"
+      }
+    ]
+  }
+  

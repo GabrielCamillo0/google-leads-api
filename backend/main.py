@@ -1,5 +1,6 @@
 from fastapi import FastAPI
-from backend.routes import auth, users, payments, leads
+from routes import auth, users, payments, leads
+
 
 app = FastAPI(title="Google Leads Scraper API")
 
